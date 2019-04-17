@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="my-3" *ngFor="let gameList of ALLGamesListes.games_list">
+    <p class="text-white"><i><img class="mr-1" alt="icon" src="../../../../assets/images/logo-icon.png" width="20"></i>{{gameList.cat_name}}</p>
+    <hr class="bg-white">
+    <div class="row" >
+        <div class="col-2" *ngFor="let game of gameList.games">
+          <div (click)="gotoGame(game.game_id)" style="cursor: pointer;">
+            <img class="img-fluid" width="70%" [src]="game.game_thumb">
+            <p class="text-white">{{game.game_name}}gg</p>
+          </div>
+        </div><!-- col-2 -->
+      </div><!-- row -->
+  </div>
+  
+</div><!-- container -->

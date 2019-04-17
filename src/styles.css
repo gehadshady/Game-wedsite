@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+body{background-image: url(../../images/background.jpg);background-size: cover}
+
+.text-gray{color: #a3a3a3}
+.bg-transBlack{background-color: rgba(126, 125, 125, 0.3)}

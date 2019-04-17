@@ -1,0 +1,12 @@
+
+.searchBtn{
+    background-color: #8ce6e6;
+    color: #000;
+    font-weight: bold;
+}
+.searchOptions{
+    background-color: rgb(66, 66, 66);
+    border-radius: 2px;
+    color: #8ce6e6;
+    border: 0
+}
